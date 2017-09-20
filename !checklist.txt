@@ -1,0 +1,183 @@
+Checklist
+
+### 9/19/17
+
+_ Mock-up Funding Organization form
+_ Download Skeleton
+_ Make a form page
+_ Delete old Trello boards
+_ Create/favorite current project Trello boards
+_ Try echo statements on dev server for scores not showing up
+_ Test on dev server
+_ Backup prod database
+_ Run AddTabsAndFields on prod server
+_ Put files on prod server via scp
+_ Test on prod server
+=============
+_ Meetings:
+  _ IRB Weekly meeting 9:30, Hill 111
+  _ Exchange meeting 12:00
+  _ Huron stand-up 1:30
+  _ Click Data integration - 2:00
+  _ Meeting w/Rebecca about adding tipsheets to studio tool - 4:00
+_ Timesheet
+_ Add tomorrow's meetings
+
+### 9/18/17
+
+x Copy Public Library study
+x Remove Consent form
+x Email Juesta and Jamia
+x Open Cabr-x events file and setup desktop
+x Add Carb-x event # 1
+x Add Carb-x event # 2
+x Commit, push and upload news file(s)
+x Open news, news-items and allowed_pages files
+x Add Microbiotix story to news_items
+x Try to make 3 lines work on main news page (or shorten title)
+x Add logos to story 
+x Create Microbiotix news release page
+x Add entry in allowed pages
+x Commit, push and upload story file(s) to review only
+x Look through OpenSIS documentation for Comments/Journal problem
+=============
+_ Meetings:
+  x Meet Bartlett - home 9:00
+  x CBWT call - 10:00
+  x IRB Communication strategy meeting 11:00, 09-110
+  x IRB meeting - 1:00, 09-110
+x Timesheet
+_ Add tomorrow's meetings
+
+/Ajax.php?modname=students/Student.php&include=OtherInfoInc&category_id=18&session=2017-09-03&test_type_id=1&official=Y&ajax=true&trigger=testType
+/Ajax.php?modname=students/Student.php&include=OtherInfoInc&category_id=18&session=2017-09-04&test_type_id=2&official=Y&ajax=true&trigger=testType
+
+### 9/18/17
+
+x Swap out Carb-x news statement
+x Push change to review
+x Push change to prod
+x Email Kim
+x Reply to Veronica about Exchange UI mock-ups
+x Email Jenna and confirm major Click questions
+x Update Engage ticket
+x Give Scott and John a heads up
+x Call Camile
+=============
+x Meetings:
+  x Breakfast bash 8:00 - 360, 310, 311
+  x Click stand-up call 1:30
+  x VE -> Huron Mapping call 3:00
+x Timesheet
+_ Add tomorrow's meetings
+
+### 9/17/17
+
+x Open IRB notes file
+x Add CR notes
+x Add Amendment notes
+x Email notes to committee
+x Put files on dev server via scp
+  x js/rti.js
+  x modules/students/includes/c_FunctionsInc.php
+  x modules/students/includes/c_ListScoresOutputFnc.php
+  x modules/students/includes/c_ScoresInc.php
+x Move files to right subdirs
+x Chown files
+x Chmod files 
+
+### 9/15/17
+
+x Make Official, display only (no click and edit)
+x Make test date display only (no click and edit)
+x Stop subject column from wrapping
+x Keep subject text on ajax cycle for test type selection 
+x Allow Administrator users role to update journals
+x Clean up code
+x Commit and Push code to sandbox repo
+x Beyond Compare code to real local official repo
+x Commit and Push code to official repo
+x Run AddTabsAndFields on dev server
+x Prep word doc with screenshots of SmartForms for core team meeting
+=============
+x Meetings:
+  x IRB Weekly Check in Meeting (09-453) 10:00
+x Timesheet
+x Add tomorrow's meetings
+
+### 9/14/17
+
+x Timesheet for yesterday
+x Setup carb-x desktop
+x "Fix" news release
+x Add SMI news story
+x Review engage tix
+x Push news revisions to prod
+x Commit code to svn
+x Setup EmilyK desktop and external monitor
+x Add hidden fields for subject to correspond with $_REQUEST['SCORE_#'] - ** not needed
+x Loop through $_REQUEST and isolate only keys that start with SCORE_
+x For each SCORE_ key, get last character (int) and use as test_subject_id for score insert
+x If count is > 1, loop through count and insert a score for each $_REQUEST['SCORE_#']
+  x Use $subject_id for subject field
+  x Use $value for score field
+x Schedule dynamic development meeting with Teena
+x Get IRB packet
+x Verify subject and score data is inserting correctly
+x Restore single subject insert
+=============
+x Meetings:
+  x Digital Toolkit call 11
+  x Click call 1:30
+  x One on One meeting 3:00
+x Timesheet
+x Add tomorrow's meetings
+
+### 9/13/17
+
+x Open chrome, vim and tmux to carb-x
+x Review carb-x changes
+x Make Partners changes
+x Add Proteus to news_items.php
+x Add press_proteus_september_4_2017 to allowed pages
+x Create Proteus News page
+x Make News change 2
+x Change date on Application page
+x On submit, insert to student_test_sessions
+x Get new max student_test_sessions id
+x Use new max session id to save single test score to student_test_scores
+x Figure out items for multi-score test types
+x Get count of scores for test type
+
+### 9/10/17
+
+x Add explore cell of what is page
+x Add get TA cell of what is page
+x Add more about row of what is page
+x Commit code to dev, master
+x Commit subtree to gh-pages
+x Email Jamie, Michal and Barabara on progress
+x Open vim to correct opensis files
+x Connect to MySQl database
+x Arrange desktop
+x Debug Subject drop-down not appearing for AP, SAT Subject tests, etc
+x Get code in head
+x We are the Champion sound snippet
+x Charge orange bluetooth speaker
+
+### 9/8/17
+
+x IRB review request clarification screenshot
+x Email screenshots to Jamia
+x Fix o** omissions on who page
+x Fix o** omissions on homepage
+x Fix o** omissions on what we do page
+x Create blank template for what is page
+x Add title to people banner
+x Add first row of what is page
+x Add chartruese row of what is page
+x Click data integration call
+x Add brief background row of what is page
+x Add opportunity row of what is page
+x Champions dry-run
+
